@@ -1,0 +1,8 @@
+scripts/
+tests/
+test-results/
+playwright-report/
+.git/
+.env
+.env.*
+*.local
