@@ -1,0 +1,11 @@
+import { mkdirSync, writeFileSync } from 'node:fs';
+mkdirSync('public/photos', { recursive: true });
+const variants = [
+  ['portrait', '#d9cde5', '#b19abe', 'YOUR FAVORITE PORTRAIT', 'a very cool human'],
+  ['creative', '#e4c4b2', '#c4947b', 'YOUR CREATIVE MOMENT', 'a little creative magic'],
+  ['everyday', '#d5ddc7', '#a1ae8c', 'YOUR EVERYDAY FAVORITE', 'entirely yourself'],
+  ['details', '#e9d6ad', '#c7af7f', 'YOUR FAVORITE DETAIL', 'your own kind of cool'],
+];
+for (const [name, bg, accent, label, caption] of variants) {
+  writeFileSync(`public/photos/${name}.svg`, `<svg xmlns="http://www.w3.org/2000/svg" width="600" height="740" viewBox="0 0 600 740"><defs><pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#fff" stroke-opacity=".16"/></pattern></defs><path fill="${bg}" d="M0 0h600v740H0z"/><path fill="url(#grid)" d="M0 0h600v740H0z"/><ellipse cx="300" cy="334" rx="196" ry="244" fill="#fffaf1" fill-opacity=".4" stroke="#fffaf1" stroke-width="2"/><path d="M103 450q60-74 65-164 7-144 132-144t132 144q5 90 65 164-58 54-197 42T103 450" fill="${accent}" fill-opacity=".58"/><ellipse cx="300" cy="299" rx="92" ry="115" fill="#f3e9d7"/><path d="M204 295q-8-148 103-139 109 8 88 147-24-67-67-90-25 59-124 82" fill="${accent}"/><path d="M157 548q6-120 100-145l43 36 43-36q94 25 100 145" fill="#f8f2e8"/><path d="m270 378-6 34q35 42 71 0l-6-34" fill="#f3e9d7"/><path d="M267 454q33 25 65 0" fill="none" stroke="${accent}" stroke-width="2"/><g fill="none" stroke="#485140" stroke-width="2" opacity=".65"><path d="m466 121 6 15 15 6-15 6-6 15-6-15-15-6 15-6zM112 351l6 15 15 6-15 6-6 15-6-15-15-6 15-6z"/><path d="M78 231q27-33 54-18M474 458q-12 31-41 36"/></g><rect x="142" y="570" width="316" height="45" rx="2" fill="#faf7ee"/><text x="300" y="598" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" letter-spacing="2" fill="#485140">PHOTO PLACEHOLDER</text><text x="300" y="653" text-anchor="middle" font-family="Georgia,serif" font-size="25" font-style="italic" fill="#485140">${caption}</text><text x="300" y="693" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" letter-spacing="2" fill="#485140">ADD ${label}</text></svg>`);
+}

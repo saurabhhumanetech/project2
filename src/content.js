@@ -1,0 +1,57 @@
+// EDIT HERE: names, local photos, captions, notes and messages live in this file.
+// Put photos in public/photos, then change src to '/photos/your-file.webp'.
+export const content = {
+  name: 'Domčo',
+  greeting: 'Hey, Domčo.',
+  from: 'Saurabh',
+  location: 'Czechia',
+  opening: 'Somehow, the internet introduced me to this very cool human.',
+  revealButton: 'Who are we talking about?',
+  introduction: 'A creative mind. A very good friend. A whole little universe of her own.',
+  photos: [
+    { src: '/photos/download.png', alt: 'Domčo in a white hoodie, resting her chin on her hand', label: 'the main character', note: 'A little space for someone who makes ordinary conversations a lot more interesting.', caption: '01 / a very cool human' },
+    { src: '/photos/3.png', alt: 'Domčo wearing a black cap and winged eyeliner', label: 'a little creative magic', note: 'Dancing, makeup, fashion… your creativity clearly never got the memo about picking just one thing.', caption: '02 / creativity, in all its forms' },
+    { src: '/photos/2.png', alt: 'Domčo making a peace sign beside her face while sitting on a sofa', label: 'just being you', note: 'No special occasion required. Being yourself is already a pretty good reason to celebrate.', caption: '03 / everyday main-character energy' },
+    { src: '/photos/1.png', alt: 'Domčo taking a mirror selfie in a dark hoodie and black cap', label: 'the little details', note: 'Here’s to your own ideas, your own style, and all the things you haven’t tried yet.', caption: '04 / entirely your own kind of cool' },
+    { src: '/photos/4.png', alt: 'A chat screenshot with Domčo’s portrait and playful messages', label: 'a little chat energy', note: 'Good conversations don’t have to be profound. Sometimes a wonderfully unserious chat is exactly the point.', caption: '05 / a little internet friendship' },
+  ],
+  characters: [
+    { name: 'Dancer', icon: '✧', photo: 0, title: 'Life has a rhythm. You find it.', caption: 'An imaginary dance floor. An excellent playlist. Absolutely no shortage of personality.' },
+    { name: 'Makeup Artist', icon: '✳', photo: 1, title: 'A little color. A lot of imagination.', caption: 'A face is a canvas, and apparently you came prepared with the entire color palette.' },
+    { name: 'Fashion Designer', icon: '✂', photo: 3, title: 'Your ideas deserve their own runway.', caption: 'Turning “what if?” into something you can actually wear. That is a very cool superpower.' },
+    { name: 'All of the above, obviously.', icon: '★', photo: 2, title: 'Okay, leave some talent for the rest of us.', caption: 'Dancer. Makeup artist. Fashion designer. Picking just one was never really an option.' },
+  ],
+  adventures: [
+    { name: 'Café hopping', icon: '☕', result: 'Imaginary itinerary: one cozy café, two very overthought orders, and a conversation that outlasts both drinks.' },
+    { name: 'Dance battle', icon: '♫', result: 'Imaginary itinerary: you bring the moves. I bring extremely confident, deeply questionable choreography. Everyone wins.' },
+    { name: 'Lost in a new city', icon: '↗', result: 'Imaginary itinerary: a wrong turn, a nice little street, and calling it “the scenic route” with complete confidence.' },
+  ],
+  quiz: [
+    { question: 'We have an afternoon and absolutely no plan. First move?', answers: ['Find a cozy café', 'Follow the music', 'Pick a random direction'] },
+    { question: 'Our imaginary hangout needs a soundtrack. You choose…', answers: ['Something relaxed', 'A dance-floor favorite', 'A dramatic movie score'] },
+    { question: 'A tiny detour appears. What happens?', answers: ['One photo, then back on track', 'We investigate, obviously', 'The detour is now the plan'] },
+  ],
+  quizResults: [
+    { title: 'Cozy chaos', description: 'A lovely amount of wandering, laughing, and taking our time. Excellent friendship weather.' },
+    { title: 'Delightfully unpredictable', description: 'A loose plan, a spontaneous detour, and plenty to laugh about. A very good imaginary afternoon.' },
+    { title: 'Certified side-quest legends', description: 'The plan has left the chat. The good company has stayed. Maximum adventure, excellent vibes.' },
+  ],
+  secret: 'I knew you would. Anyway, you’re stuck with my friendship now 🤝',
+  vibes: [
+    'Your creativity doesn’t have to be productive to be worth something. Make things just because they make you happy.',
+    'You make a regular conversation feel like a good part of the day.',
+    'There is no deadline for figuring out all the things you want to become.',
+    'Your ideas deserve a chance, even the ones that start with “this might be a little weird.”',
+    'You can be talented and still be learning. Those things go together.',
+    'Some people make the internet feel a little more human. You’re one of them.',
+    'Your own sense of style is worth trusting. You don’t need a committee.',
+    'A quiet day doesn’t make you any less interesting. Rest counts, too.',
+    'You don’t have to pick one creative thing. You’re allowed to be a whole collection.',
+    'Good friendship doesn’t need a perfect message. “Hey, look at this” is a lovely start.',
+    'A first attempt is a brave little thing. Give yours some credit.',
+    'Being yourself is more interesting than being everyone’s idea of impressive.',
+    'Somewhere in the world, a friend is very glad the internet introduced you. Hi, that’s me.',
+    'Today can be a small-steps day. Your imagination will still be there tomorrow.',
+  ],
+  letter: 'It’s funny how someone you meet online can become such a lovely part of your day. You’re creative, funny, and somehow always discovering another thing you’re good at. I made this little corner of the internet just to make you smile. Very glad we ended up in the same corner of the internet.',
+};
