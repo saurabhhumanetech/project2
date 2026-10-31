@@ -1,6 +1,12 @@
 # The Domčo Universe
 
-A private-by-default, browser-only friendship scrapbook from Saurabh. Built with React, Vite and Tailwind CSS. No backend, account system, analytics, external fonts, music, or API calls. Nothing has been deployed.
+A browser-only friendship scrapbook from Saurabh. Built with React, Vite and Tailwind CSS. No backend, account system, analytics, external fonts, music, or API calls.
+
+Live website: https://domco-universe.vercel.app
+
+Source: https://github.com/saurabhhumanetech/project2
+
+The Vercel project `domco` is connected to this GitHub repository. Pushes to `main` deploy production updates.
 
 ## Run locally
 
